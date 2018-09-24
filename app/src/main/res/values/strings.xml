@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">NewtonTimer</string>
+    <string name="app_summary">NewtonTimer provides all useful timers!</string>
+    <string name="count_down_button">Count Down!</string>
+    <string name="count_down_start_button">Start</string>
+    <string name="count_down_resume_button">Resume</string>
+    <string name="count_down_pause_button">Pause</string>
+    <string name="count_down_timeout_message">Time is up!</string>
+    <string name="count_down_opening_message">Enter time first!</string>
+    <string name="count_down_pause_message">Paused!</string>
+    <string name="count_down_start_message">Counting down!</string>
+    <string name="count_down_error_message">Wrong input!</string>
+    <string name="count_down_init_timer">00:00.00</string>
+    <string name="count_down_hint_input">Enter time as MM:SS</string>
+    <string name="stop_watch_button">Stopwatch!</string>
+    <string name="stop_watch_init_timer">00:00:00.00</string>
+    <string name="stop_watch_start_button">Start</string>
+    <string name="stop_watch_stop_button">Stop</string>
+    <string name="stop_watch_clear_button">Clear</string>
 </resources>

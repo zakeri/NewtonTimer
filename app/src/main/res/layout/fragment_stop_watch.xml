@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:clickable="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/text_stop_watch_timer"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/stop_watch_init_timer"
+        android:textSize="60sp"
+        android:gravity="center_horizontal"
+        app:layout_constraintVertical_bias="0.3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.constraint.ConstraintLayout
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/text_stop_watch_timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_stop_watch_start"
+            android:text="@string/stop_watch_start_button"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintDimensionRatio="5:2"
+            app:layout_constraintHorizontal_bias="0.1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/button_stop_watch_stop"
+            android:text="@string/stop_watch_stop_button"
+            app:layout_constraintLeft_toRightOf="@+id/button_stop_watch_start"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintDimensionRatio="5:2"
+            app:layout_constraintHorizontal_bias="0.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/button_stop_watch_clear"
+            android:text="@string/stop_watch_clear_button"
+            app:layout_constraintLeft_toRightOf="@+id/button_stop_watch_stop"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintDimensionRatio="5:2"
+            app:layout_constraintHorizontal_bias="0.9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>
